@@ -16,15 +16,15 @@ def rmv(D):
             final_list.append(num)
     return final_list
 
-dim = random.randint(5,20)
+dim = random.randint(5,100)
 D = []
 for i in range (1,dim):
-    D.append(random.randint(5,100))
+    D.append(random.randint(5,1000))
 D = rmv(D)
 dim = len(D)
 
 problem = Problem()
-vals = Graph.createGraph(10, 0.5)
+vals = Graph.createGraph(100, 0.5)
 matrix = vals[0]
 print "Matrice di adiacenza: \n", matrix
 nodeList = vals[1]
