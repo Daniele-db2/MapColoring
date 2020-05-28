@@ -38,16 +38,3 @@ def rmv (cycle):
         if num not in final_list:
             final_list.append(num)
     return final_list
-
-
-# matrix =([[1, 1, 1, 0, 1, 1, 0],
-#           [1, 1, 1, 0, 0, 0, 0],
-#           [1, 1, 1, 1, 1, 0, 0],
-#           [0, 0, 1, 1, 1, 0, 0],
-#           [1, 0, 1, 1, 1, 1, 0],
-#           [1, 0, 0, 0, 1, 1, 1],
-#           [1, 0, 0, 0, 0, 1, 1]])
-# order = [0,1,2,3,4,5]
-# cutset_decomposition(matrix,order,0)
-# print matrix
-
